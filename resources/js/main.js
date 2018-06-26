@@ -31,3 +31,8 @@ $(function () {
     lastScrollTop = st;
   });
 });
+
+
+$('.carousel').carousel({
+  interval: 2000
+})

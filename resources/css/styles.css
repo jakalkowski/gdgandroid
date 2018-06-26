@@ -7,6 +7,20 @@
 }
 
 /* NAVBAR */
+.logo {
+  margin-right: 1rem;
+  }
+
+.carousel-caption .btn {
+  background-color: #07ab07;
+  border-color: #07ab07;
+}
+
+.carousel-caption .btn:hover {
+  background-color: #207420;
+  border-color: #207420;
+}
+
 nav {
   background-color: white;
   z-index: 1030;
@@ -124,6 +138,15 @@ p {
   margin-top: 19px;
 }
 
+.post-body a {
+  color: #07ab07;
+  font-weight: bold;
+}
+
+.post-body a:hover {
+  color: #07ab07;
+}
+
 .article {
   display: flex;
   align-items: center;
@@ -209,4 +232,46 @@ footer {
   .foto-webpage {
     display: none;
   }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+
+.carousel-item p {
+  color: white;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #777;
+}
+
+.organizer p {
+  font-weight: 300i;
 }
