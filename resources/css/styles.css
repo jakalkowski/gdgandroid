@@ -6,6 +6,15 @@
   font-size: 18px;
 }
 
+h1 {
+  font-weight: 600 !important;
+  font-size: 3rem !important;
+  }
+
+.carousel-caption {
+  bottom: 150px !important;
+  }
+
 /* NAVBAR */
 .logo {
   margin-right: 1rem;
@@ -161,8 +170,8 @@ p {
 .article-wrapper {
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* FOOTER */
@@ -234,7 +243,7 @@ footer {
   }
 }
 
-/* CUSTOMIZE THE CAROUSEL
+/* THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
