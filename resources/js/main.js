@@ -1,3 +1,6 @@
+/* NAVBAR
+--------------------------------------------------*/
+
 $(function () {
   var lastScrollTop = 0;
   var $navbar = $('.navbar');
@@ -31,6 +34,9 @@ $(function () {
     lastScrollTop = st;
   });
 });
+
+/* THE CAROUSEL
+-------------------------------------------------- */
 
 $('.carousel').carousel({
   interval: 1000
