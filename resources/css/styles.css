@@ -44,6 +44,7 @@ nav {
   transition: visibility 0s 1s, opacity 1s linear;
 }
 
+
 /* THE CAROUSEL
 -------------------------------------------------- */
 
@@ -54,9 +55,6 @@ nav {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
-}
-
-.carousel-caption {
   bottom: 150px !important;
 }
 
@@ -99,6 +97,7 @@ h1 {
   background-color: #777;
 }
 
+
 /* ORGANIZER
 -------------------------------------------------- */
 
@@ -136,6 +135,7 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 
 /* LATEST NEWS
 -------------------------------------------------- */
@@ -175,6 +175,7 @@ p {
   margin-right: 15px;
 }
 
+
 /* FOOTER
 -------------------------------------------------- */
 
@@ -212,41 +213,9 @@ footer {
   color: grey;
 }
 
+
 /* MEDIA QUERIES
 -------------------------------------------------- */
-
-@media only screen and (min-width : 1024px){
-  .foto-mobile {
-    display: none;
-  }
-}
-
-@media only screen and (min-width : 763px) and (max-width: 1024px){
-  .foto-mobile {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 760px) {
-  .navbar-extra {
-    display: none;
-  },
-  .article {
-    flex-direction: row;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  .jb-title {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 667px) {
-  .foto-webpage {
-    display: none;
-  }
-}
 
 @media (max-width: 767px){
  footer {
